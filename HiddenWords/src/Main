@@ -1,0 +1,16 @@
+public int getScore
+{
+    int result=0;
+
+    if(levelOne.goalReached)
+    {
+        result+=levelOne.getPoints;
+
+    }
+    if(levelTwo.goalReached)
+        {
+            result+=levelOne.getPoints;
+
+        }
+
+}
